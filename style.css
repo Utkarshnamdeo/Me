@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400');
+
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,400'); */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    /* font-family: 'Poppins'; */
+    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Poppins', 'Open Sans', sans-serif; */
+    filter: grayscale(100%);
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+    overflow-y: hidden;
+    background-size: cover;
+    background-image: url('./img/pexels-photo-373076.jpeg');
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+.title {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+    color: #80808a;
+    letter-spacing: 0.5rem;
+}
+
+.description {
+    letter-spacing: 0.6rem;
+    padding: 3px 0px;
+    color: #fff;
+    background: #80808a;
+}
